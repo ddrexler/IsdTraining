@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e859c0f3-3deb-434e-95ee-be5554546e37" name="Default" comment="jasonio added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cedarsoftware_json_io_4_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="e859c0f3-3deb-434e-95ee-be5554546e37" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/company/Product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/company/SerializeProduct.class" afterPath="$PROJECT_DIR$/target/classes/com/company/SerializeProduct.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XmlIsdTesting.iml" afterPath="$PROJECT_DIR$/XmlIsdTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/SerializeProduct.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/SerializeProduct.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -803,12 +796,20 @@
       <workItem from="1526576520389" duration="2145000" />
       <workItem from="1526668139509" duration="1735000" />
       <workItem from="1526715372899" duration="239000" />
-      <workItem from="1526715893712" duration="1773000" />
+      <workItem from="1526715893712" duration="1784000" />
     </task>
+    <task id="LOCAL-00001" summary="jasonio added">
+      <created>1526730683544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526730683544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26941000" />
+    <option name="totallyTimeSpent" value="26952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="729" extended-state="6" />
