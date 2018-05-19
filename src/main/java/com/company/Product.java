@@ -8,7 +8,6 @@ package com.company;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.io.Serializable;
-import java.util.Locale;
 import java.util.Set;
 
 
@@ -43,7 +42,7 @@ public class Product implements Serializable, Comparable {
     public Product() {
     }
 
-    public Product(String name, float price, String description, String imgPath, Category category) {
+    Product(String name, float price, String description, String imgPath, Category category) {
         this.name = name;
         this.price = price;
         this.description = description;
@@ -52,7 +51,7 @@ public class Product implements Serializable, Comparable {
         this.active = true;
     }
 
-    public Long getId() {
+    private Long getId() {
         return id;
     }
 
@@ -72,7 +71,7 @@ public class Product implements Serializable, Comparable {
         this.price = price;
     }
 
-    public String getDescription() {
+    private String getDescription() {
         return description;
     }
 
@@ -117,7 +116,7 @@ public class Product implements Serializable, Comparable {
 
     // Convenience methods
 
-    public int ratingCount() {
+    private int ratingCount() {
         return recensions.size();
     }
 
@@ -132,6 +131,12 @@ public class Product implements Serializable, Comparable {
         }
         return sum/ratingCount();
 
+    }
+
+    @Override
+    public String toString(){
+
+        return getDescription();
     }
 
 

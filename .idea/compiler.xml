@@ -9,7 +9,7 @@
         <module name="XmlIsdTesting" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="XmlIsdTesting" target="1.8" />
     </bytecodeTargetLevel>
   </component>
